@@ -15,16 +15,12 @@
         <img src="assets/icons/logo_oscarleuro.png" alt="logo_oscar_leuro">
         </div>
         <nav>
-            <a href="">Cursos</a>
-            <a href="">Aplicaciones</a>
-            <a href="">Sistemas</a>
-            <a href="">Contacto</a>
+             <a href="#" id="inicio" onclick=routeStart()>Inicio</a>
+            <a href="#" id="cursos" onclick=routeCourses()>Cursos</a>
+            <a href="#" id="apps" onclick=routeApps()>Aplicaciones</a>
+            <a href="#" id="sys" onclick=routeSys()>Sistemas</a>
+            <a href="#" id="info" onclick=routeInfo()>Contacto</a>
         </nav>
         <button class="btn_menu"><i class="fas fa-bars"></i></button>
 
     </header>
-    
-</body>
-<script src="https://kit.fontawesome.com/9cfc4e4770.js"></script>
-<script src="assets/js/menu.js"></script>
-</html>

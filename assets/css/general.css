@@ -3,3 +3,20 @@
 *{box-sizing: border-box;
     margin: 0px;
     font-family: 'Barlow', sans-serif;}
+
+body {background: url('../img/bg.jpg');
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    }
+
+.contenedor{width: 80%;
+        margin-top: 50px ;
+        height: 80vh;
+        background: white;
+        border-radius: 1%;
+        box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.171);
+        overflow: hidden;}
