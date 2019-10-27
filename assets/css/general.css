@@ -20,3 +20,5 @@ body {background: url('../img/bg.jpg');
         border-radius: 1%;
         box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.171);
         overflow: hidden;}
+
+#content{padding: 20px;}
